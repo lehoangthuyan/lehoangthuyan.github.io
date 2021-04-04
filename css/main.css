@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.all
+{background-color:black}
+.nenmenu button { ; border-color:white ; color: white}
+.nenmenu button:hover {background-color: grey}
+
+
+.nutnhay{
+	font-size:0.85em;
+
+	margin-left:35%;
+	border-color:white;
+	cursor: pointer;
+	padding:15px 30px;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s
+}
+
+.tieude
+{
+	padding-top: 500px;
+	padding-left: 100px;
+}
+
+.tieude h1 {color:white;
+			font-size: 50px}
+
+.quote h1{color:whitesmoke;
+			font-size: 90px;
+			text-align: center;
+			padding-top: 300px; }
+.noidung1 {
+			height: 900px;
+			padding-top: 30px ; 
+			padding-left: 100px;
+			pading-bottom:50px;
+			background-color: #000000}
+.hinhanh {}
+.hinha  img {position: relative}
+.hinhb img {position: absolute ; margin-top: -250px ; margin-left: 500px;}
+.hinhc img {position: absolute ; margin-top: -50px ; margin-left: 100px;}
+			
+.chu1{padding-top: 300px}
+.noidung2{
+			background-color: #000000;
+	
+}
+.tieude01 {width:100% ;
+
+		   text-align: center;
+	
+			color: aliceblue}
+.sub{text-align: center;
+		color:white}
+.banner2{background-image:url("../Images/rs-127630-20131213-nirvana7-x1800-1386958320.jpeg");
+		height: 100vh;
+		background-size: cover;	}
+.logo2{background-color: black;
+	padding-top: 50px;
+	padding-left: 350px;
+	padding-bottom: 50px
+		}
+.footer{
+	width: 100%;
+	height: auto;
+	color: #FFFFFF
+	}
+
+
+
+.footer01{
+	width: 100%;
+	height: auto;
+	color: #FFFFFF;	
+	padding-left: 80px;
+	padding-top: 5px;
+	
+}
+
+
+.footer02{
+	width: 100%;
+	height: auto;
+	padding-left: 150px;
+
+	}
+
+.footer03{
+	width: 100%;
+	height: auto;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-left: 80px;
+		}
+	
+.dia1{-webkit-animation: rotate-90-cw 15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotate-90-cw 15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;}
+
+@-webkit-keyframes rotate-90-cw {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+@keyframes rotate-90-cw {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
